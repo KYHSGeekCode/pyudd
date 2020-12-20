@@ -54,7 +54,8 @@ def rtfm():
         usage += ["%s %s:" % (i[0], i[1])]
         usage += ["    %s" % i[2], ""]
 
-    print "\n".join(usage)
+    print ("\n")
+    print (usage)
     sys.exit()
 
 
@@ -86,7 +87,8 @@ def extract_user_data(udd, format_):
 
                 results += [",".join([type_, text])]
 
-    print "\n".join(results)
+    print ("\n")
+    print (results)
     return
 
 def export_labcoms(udd):
